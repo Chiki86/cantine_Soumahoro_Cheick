@@ -1,0 +1,2 @@
+PS C:\Users\HP\Documents\cantine_Soumahoro_Cheick> node cantine.js
+client Awa,code du plat 1, quantité 3, montant versé 5000
