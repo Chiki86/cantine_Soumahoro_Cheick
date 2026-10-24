@@ -8,3 +8,11 @@ code invalide( 6 pour le code de plat)
 - PS C:\Users\HP\Documents\cantine_Soumahoro_Cheick> node cantine.js
 client Awa,code du plat 2, quantité 3, montant versé 1500
 2000 FCFA, Riz-poulet
+- PS C:\Users\HP\Documents\cantine_Soumahoro_Cheick> node cantine.js
+client Awa,code du plat 2, quantité 10, montant versé 10000
+2000 FCFA, Riz-poulet
+20000
+- PS C:\Users\HP\Documents\cantine_Soumahoro_Cheick> node cantine.js
+client Awa,code du plat 3, quantité 7, montant versé 10000
+1000 FCFA, attieke-oeuf
+7000
