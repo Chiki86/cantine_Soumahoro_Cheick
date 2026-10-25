@@ -1,8 +1,10 @@
-Q1:
+Q1: dossier cantine_Soumahoro_Cheick
+
+Q2:
 - PS C:\Users\HP\Documents\cantine_Soumahoro_Cheick> node cantine.js
 client Awa,code du plat 1, quantité 3, montant versé 5000
 
-Q2:
+Q3:
 - client Awa,code du plat 6, quantité 3, montant versé 1500
 code invalide( 6 pour le code de plat)
 - PS C:\Users\HP\Documents\cantine_Soumahoro_Cheick> node cantine.js
@@ -16,3 +18,14 @@ client Awa,code du plat 2, quantité 10, montant versé 10000
 client Awa,code du plat 3, quantité 7, montant versé 10000
 1000 FCFA, attieke-oeuf
 7000
+
+Q4:
+PS C:\Users\HP\Documents\cantine_Soumahoro_Cheick> node cantine.js
+client Awa,code du plat 1, quantité 2, montant versé 10000
+1500 FCFA, attieke-poisson
+3000 est le montant total
+portion 1
+1500 FCFA est le montant cette portion
+portion 2
+1500 FCFA est le montant cette portion
+3000 FCFA est le montant total
