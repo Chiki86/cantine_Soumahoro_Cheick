@@ -57,3 +57,18 @@ portion 2 : 1500 FCFA
 portion 3 : 1500 FCFA
 Total : 4500 FCFA
 la monnaie : 500 FCFA
+
+test2: PS C:\Users\HP\Documents\cantine_Soumahoro_Cheick> node cantine.js
+client Awa,code du plat 2, quantité 2, montant versé 3000
+2000 FCFA, Riz-poulet
+le montant total est : 4000
+Tableau recapitulatif
+Client : Awa
+code du plat : 2
+quantité : 2
+Montant versé : 3000
+Prix unitaire : 2000
+portion 1 : 2000 FCFA
+portion 2 : 2000 FCFA
+Total : 4000 FCFA
+le montant manquant :1000 FCFA
