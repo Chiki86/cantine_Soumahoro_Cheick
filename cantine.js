@@ -2,14 +2,14 @@ const AttPoi = "attieke-poisson"
 const RiPou = "Riz-poulet"
 const AO = "attieke-oeuf"
 let client = "Awa"
-let quantite = "10"
+let quantite = "2"
 let montantVersé = 10000
-let codeDuplat = 2
+let codeDuplat = 1
 
 // conversion
 let quantitec = Number(quantite)
 console.log(`client ${client},code du plat ${codeDuplat}, quantité ${quantitec}, montant versé ${montantVersé}`)
-// Prix Unitaire
+// Prix Unitaire avec if/else
 let p = 0 // p c'est ma variable pour le prix unitaire
 if(codeDuplat === 1 ){
     p= 1500
@@ -24,11 +24,18 @@ else if(codeDuplat === 3){
     console.log(`${p} FCFA, ${AO}`)
 }
 else{
-    console.log(`code invalide`)
+    console.log(`code invalide, on a pas plat pour ce code`)
 }
-
+// fonction
 function calculerTotal(p,quantitec){ 
     return p * quantitec
 }
 const montantTotal = calculerTotal(p,quantitec)
-console.log(montantTotal)
+console.log(montantTotal + " est le montant total")
+
+// boucle for
+for(let i = 1; i <=quantitec; i++){
+    console.log(`portion ${i}`);
+    console.log(p +" FCFA" + " est le montant cette portion");
+}
+console.log(montantTotal +" FCFA" + " est le montant total")
