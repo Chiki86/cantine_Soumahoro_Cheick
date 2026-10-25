@@ -40,3 +40,20 @@ portion 2 : 1500 FCFA
 Client : Awa
 Total : 3000 FCFA
 le montant manquant :2000 FCFA
+
+Etape de test
+test1 : PS C:\Users\HP\Documents\cantine_Soumahoro_Cheick> node cantine.js
+client Awa,code du plat 1, quantité 3, montant versé 5000
+1500 FCFA, attieke-poisson
+le montant total est : 4500
+Tableau recapitulatif
+Client : Awa
+code du plat : 1
+quantité : 3
+Montant versé : 5000
+Prix unitaire : 1500
+portion 1 : 1500 FCFA
+portion 2 : 1500 FCFA
+portion 3 : 1500 FCFA
+Total : 4500 FCFA
+la monnaie : 500 FCFA
