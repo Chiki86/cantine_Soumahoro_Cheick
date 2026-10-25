@@ -3,7 +3,7 @@ const RiPou = "Riz-poulet"
 const AO = "attieke-oeuf"
 let client = "Awa"
 let quantite = "2"
-let montantVersé = 10000
+let montantVersé = 1000
 let codeDuplat = 1
 
 // conversion
@@ -31,11 +31,19 @@ function calculerTotal(p,quantitec){
     return p * quantitec
 }
 const montantTotal = calculerTotal(p,quantitec)
-console.log(montantTotal + " est le montant total")
+console.log(`le montant total est : ${montantTotal}`)
 
 // boucle for
+console.log("Tableau recapitulatif")
 for(let i = 1; i <=quantitec; i++){
-    console.log(`portion ${i}`);
-    console.log(p +" FCFA" + " est le montant cette portion");
+    console.log(`portion ${i} : ${p} FCFA`);
 }
-console.log(montantTotal +" FCFA" + " est le montant total")
+console.log(`Client : ${client}`)
+console.log(`Total : ${montantTotal} FCFA`);
+let monnaie = montantVersé - montantTotal
+if(monnaie >= 0){
+    console.log(`la monnaie : ${monnaie} FCFA`)
+}
+else{
+    console.log(`le montant manquant :${-monnaie} FCFA`)
+}
