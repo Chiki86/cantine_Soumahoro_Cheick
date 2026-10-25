@@ -29,3 +29,14 @@ portion 1
 portion 2
 1500 FCFA est le montant cette portion
 3000 FCFA est le montant total
+
+- PS C:\Users\HP\Documents\cantine_Soumahoro_Cheick> node cantine.js
+client Awa,code du plat 1, quantité 2, montant versé 1000
+1500 FCFA, attieke-poisson
+3000 est le montant total
+Tableau recapitulatif
+portion 1 : 1500 FCFA
+portion 2 : 1500 FCFA
+Client : Awa
+Total : 3000 FCFA
+le montant manquant :2000 FCFA
