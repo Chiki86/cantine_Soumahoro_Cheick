@@ -2,8 +2,8 @@ const AttPoi = "attieke-poisson"
 const RiPou = "Riz-poulet"
 const AO = "attieke-oeuf"
 let client = "Awa"
-let quantite = "2"
-let montantVersé = 1000
+let quantite = "3"
+let montantVersé = 5000
 let codeDuplat = 1
 
 // conversion
