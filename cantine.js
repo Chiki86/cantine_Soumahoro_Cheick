@@ -2,9 +2,9 @@ const AttPoi = "attieke-poisson"
 const RiPou = "Riz-poulet"
 const AO = "attieke-oeuf"
 let client = "Awa"
-let quantite = "2"
-let montantVersé = 3000
-let codeDuplat = 2
+let quantite = "4"
+let montantVersé = 4000
+let codeDuplat = 3
 
 // conversion
 let quantitec = Number(quantite)
