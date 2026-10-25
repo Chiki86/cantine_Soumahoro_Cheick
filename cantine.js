@@ -35,10 +35,15 @@ console.log(`le montant total est : ${montantTotal}`)
 
 // boucle for
 console.log("Tableau recapitulatif")
+console.log(`Client : ${client}`)
+console.log(`code du plat : ${codeDuplat}`)
+console.log(`quantité : ${quantitec}`)
+console.log(`Montant versé : ${montantVersé}`)
+console.log(`Prix unitaire : ${p}`)
 for(let i = 1; i <=quantitec; i++){
     console.log(`portion ${i} : ${p} FCFA`);
 }
-console.log(`Client : ${client}`)
+
 console.log(`Total : ${montantTotal} FCFA`);
 let monnaie = montantVersé - montantTotal
 if(monnaie >= 0){
